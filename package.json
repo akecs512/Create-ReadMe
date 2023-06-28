@@ -1,0 +1,19 @@
+{
+  "name": "create-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "create-readme": "./bin/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  }
+}
